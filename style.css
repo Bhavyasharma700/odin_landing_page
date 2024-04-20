@@ -23,8 +23,8 @@ The code below is for class "Section_one" defined in the html file.
 }
 
 .logo{
-    font-size: 24px;
     color: #f9faf8;
+    font-size: 24px;
 }
 
 .links {
@@ -35,68 +35,80 @@ The code below is for class "Section_one" defined in the html file.
 .upper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .lower {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 50px 0px 70px 0px;
-    
 }
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type : none;
     gap: 20px;
-    flex-wrap: wrap;
+    padding: 0px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-
     align-items: flex-start;
     align-self: flex-start;
     flex-wrap: wrap;
     gap: 10px;
     max-width: 500px;
+    margin-top: 25px;
 }
 
 .placeholder {
     display: flex;
+    flex-wrap: wrap;
     background-color: grey;
+    color: #f9faf8;
+    margin-top: 25px;
     flex: 1;
     justify-content: center;
     flex:0.75;
     align-items: center;
     height: 200px;
     width: 400px;
+    min-width: 200px;
     border-radius: 10px;
-    flex-wrap: wrap;
 }
 
-
 .main_text{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 48px;
     color: #f9faf8;
     font-weight: bold
 }
 
 .secondary_text {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     color: #e5e7eb;
 }
 
 button{
+    display: flex;
     background-color: #3882f6;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     border: 0;
     height: 30px;
     width: 75px;
+    font-weight: 800;
 }
 
 /* 
@@ -136,8 +148,6 @@ The code below is for class "Section_two" defined in the html file.
     align-items: center;
     width: 150px;
     gap: 15px;
-
-
 }
 
 .box {
@@ -239,6 +249,7 @@ The code below is for the footer defined in the html file.
 }
 
 .copyright {
-
     padding: 33px;
 }
+
+/*The code ends here.*/
